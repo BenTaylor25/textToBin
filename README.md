@@ -1,9 +1,7 @@
-Use <br>
+# Text to Binary Convertor
 
-<b>git update-index --assume-unchanged text.txt</b> <br>
+Type some text in `text.txt` and run `textToBin.py`. This will overwrite `bin.txt` with the translation of your text. <br>
+The same goes for `bin.txt`, `binToText.py` and `text.txt`.
 
-and <br>
-
-<b>git update-index --assume-unchanged bin.txt</b> <br>
-
-to freeze git to the default values for the input output files.
+Use `git update-index --assume-unchanged text.txt` and `git update-index --assume-unchanged bin.txt` to freeze git to the default values for the input output files. <br>
+(This means that your IDE won't suggest that you commit your changes during use).
